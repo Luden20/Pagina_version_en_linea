@@ -18,13 +18,27 @@
     font-weight: 900;
     font-style: normal;
     font-size:75px;
-    color: #F7B32B;
+    color: #f6511d;
+}
+header {
+    background-color: #54c6f7;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity:0.9;
+    border-radius: 24px;
 }
 body
 {
     background:#0A266D;
+    background: linear-gradient(to top,white,#26355c);
     text-align: center;
-    padding: 0 150px;
+    background-repeat: no-repeat; 
+}
+section
+{
+    padding: 10px 150px;
 }
 .contenedor
 {
@@ -45,7 +59,7 @@ body
     font-weight: 900;
     font-style: normal;
     font-size:30px;
-    color: #F7B32B;
+    color: #f6511d;
 }
 #textoSubsecciones
 {
@@ -55,5 +69,5 @@ body
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
-    color: bisque;
+    color: #0a266d;
 }

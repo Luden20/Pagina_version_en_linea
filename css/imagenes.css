@@ -29,9 +29,24 @@
 }
 #imagen_logo
 {
+    
     width: 300px; /* Define un ancho fijo */
     height: 300px; /* Define un alto fijo */
-    background-image: url('../images/logos/logo\ empresia\ SAS-transparente.png'); /* Asegúrate de que la ruta sea correcta */
+    background-image: url('../images/logos/SAS-transparente.png'); 
+
+}
+#imagen_asesoria
+{
+    height: 1000px;
+    background-image: url(../images/stock/asesoria.jpg);
+    border-radius: 10%;
+}
+#imagen_contactanos
+{
+    width: 600px;
+    height: 600px;
+    background-image: url("../images/contactame/contacto.png");
+    border-radius: 24%
 }
 #imagen_ubicacion
 {
@@ -88,4 +103,11 @@
     position: relative; /* Asegura que no se superponga al contenido de arriba */
     z-index: 1;
     background-image: url("../images/cursos/Marketing Digital para emprendedores.png");
+}
+#imagen_vision
+{
+    width: 500px; /* Hace que la imagen se ajuste al ancho del contenedor */
+    height: 500px;
+    background-image: url("../images/stock/vision.jpg");
+    border-radius: 50%;
 }
