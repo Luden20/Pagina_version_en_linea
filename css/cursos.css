@@ -5,10 +5,12 @@
     margin: 0;
     overflow: hidden;
     transition: transform 0.3s ease;
+    background-color: #f6511d;  
     /*ox-shadow: inset 0 0 10px 10px #888;*/
     position: relative;
     flex-grow: 1;
     display: flex;
+    gap: 3;
     z-index: 1;
 }
 .vista_breve_carrito
@@ -29,6 +31,8 @@
 }
 
 .elementos_internos_cursos {
+    flex-grow: 1;
+    
     display: flex;
     flex-direction: column;
     align-items: center; /* Centra los elementos horizontalmente */
