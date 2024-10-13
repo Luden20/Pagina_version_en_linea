@@ -1,0 +1,91 @@
+.imagen
+{
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: block; /* Para que se comporte como un bloque */
+    margin: 0 auto; /* Esto centra el div horizontalmente */
+    background-position: center;
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    transition:transform 0.3s ease;
+    padding: 5px;
+}
+.imagen_redonda
+{
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: block; /* Para que se comporte como un bloque */
+    margin: 0 auto; /* Esto centra el div horizontalmente */
+    background-position: center;
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    transition:transform 0.3s ease;
+    padding: 5px;
+    border-radius: 50%;
+}
+#imagen_logo
+{
+    width: 300px; /* Define un ancho fijo */
+    height: 300px; /* Define un alto fijo */
+    background-image: url('../images/logos/logo\ empresia\ SAS-transparente.png'); /* Asegúrate de que la ruta sea correcta */
+}
+#imagen_ubicacion
+{
+    width: 500px;
+    height: 500px;
+    border-radius: 24px;
+    padding-right: 300px;
+    background-image:url("../images/ubicacion/ubicacion.jpg");
+}
+#imagen_curso_Automatización_contable_con_herramientas_digitales
+{
+    width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
+    height: 100%;
+    position: relative; /* Asegura que no se superponga al contenido de arriba */
+    z-index: 1;
+    background-image: url("../images/cursos/Automatización contable con herramientas digitales.png");
+}
+#imagen_curso_CONTABILIDAD_BÁSICA_PARA_EMPRENDEDORES
+{
+    width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
+    height: 100%;
+    position: relative; /* Asegura que no se superponga al contenido de arriba */
+    z-index: 1;
+    background-image: url("../images/cursos/CONTABILIDAD BÁSICA PARA EMPRENDEDORES.png");
+}
+#imagen_curso_Contabilidad_de_Costos_Maximiza_tus_Ganancias
+{
+    width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
+    height: 100%;
+    position: relative; /* Asegura que no se superponga al contenido de arriba */
+    z-index: 1;
+    background-image: url("../images/cursos/Contabilidad de Costos_ Maximiza tus Ganancias.png");
+}
+#imagen_curso_Gestión_financiera_para_la_sostenibilidad_empresarial
+{
+    width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
+    height: 100%;
+    position: relative; /* Asegura que no se superponga al contenido de arriba */
+    z-index: 1;
+    background-image: url("../images/cursos/Gestión financiera para la sostenibilidad empresarial.png");
+}
+#imagen_curso_Impuestos_y_obligaciones_tributarias_para_microempresas_en_Ecuador
+{
+    width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
+    height: 100%;
+    position: relative; /* Asegura que no se superponga al contenido de arriba */
+    z-index: 1;
+    background-image: url("../images/cursos/Impuestos y obligaciones tributarias para microempresas en Ecuador.png");
+}
+#imagen_curso_Marketing_Digital_para_emprendedores
+{
+    width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
+    height: 100%;
+    position: relative; /* Asegura que no se superponga al contenido de arriba */
+    z-index: 1;
+    background-image: url("../images/cursos/Marketing Digital para emprendedores.png");
+}
